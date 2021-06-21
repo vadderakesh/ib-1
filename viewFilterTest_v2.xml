@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application id="63011" origId="-v1l8JvmRqmZryscGwphzw" orderNo="5" isSystem="false" version="2" packedId="0" language="en" >
+<DisplayName>viewFilterTest</DisplayName>
+<Props>
+<dependentDefs>45916,</dependentDefs>
+<appTheme>rbdefault</appTheme>
+<bootstrapVersion>4.3.1</bootstrapVersion>
+<cellLabelRenderingModeSmartphone>forceAllLabelsAbove</cellLabelRenderingModeSmartphone>
+<useNativeTimeOrDateControl>false</useNativeTimeOrDateControl>
+<createdRBVersion>6.0.0.0</createdRBVersion>
+<isHidden>false</isHidden>
+<corticonServerToUse>2</corticonServerToUse>
+<notificationPosition>topRight</notificationPosition>
+<isAppRuntimeRTL>false</isAppRuntimeRTL>
+<cellLabelRenderingModeTablet>forceAllLabelsAbove</cellLabelRenderingModeTablet>
+<useLegacyHeaderFooter>false</useLegacyHeaderFooter>
+<isHorizontalResponsiveDesign>false</isHorizontalResponsiveDesign>
+<helpField>false</helpField>
+<sysCode>viewFilterTest</sysCode>
+<cellLabelRenderingModeDesktop>forceAllLabelsToSide</cellLabelRenderingModeDesktop>
+<isDeployed>true</isDeployed>
+<isManaged>0</isManaged>
+<gridControlSelectiveEdit>1</gridControlSelectiveEdit>
+<pubManaged>0</pubManaged>
+<lastUpdatedRBVersion>6.0.0.0</lastUpdatedRBVersion>
+<showMenus>false</showMenus>
+<isLogoHidden>false</isLogoHidden>
+</Props>
+<uiTemplateType>2</uiTemplateType>
+<uiTemplateUID>2s54QGxJT_uLFSanoNUPaw</uiTemplateUID>
+<uiTemplateMobileType>2</uiTemplateMobileType>
+<uiTemplateMobileUID>sA30XK6MRTukzFi6SpC18g</uiTemplateMobileUID>
+<uiTemplateMobileProps>
+<isMobileTemplate>true</isMobileTemplate>
+</uiTemplateMobileProps>
+<DependentDefs>
+<DataObjectDef id="45916" origId="9058" objDefName="USER" >
+<SingularName>User</SingularName>
+<PluralName>Users</PluralName>
+<Description>Users are people who have access to your Infinite Blue account. Each user has an assigned Role which generally determines which applications and features they have access to.</Description>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="45917" origId="9085" fieldName="lastApplication" >
+<DisplayLabel>Last Application ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45918" origId="9079" fieldName="timeZone" >
+<DisplayLabel>Time Zone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45919" origId="30104" fieldName="mailHeader" >
+<DisplayLabel>Email Header</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45920" origId="3283318" fieldName="googPword" >
+<DisplayLabel>Google Password</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45921" origId="5948169" fieldName="isvAppDirId" >
+<DisplayLabel>App Directory Portal ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45922" origId="9063" fieldName="createdBy" >
+<DisplayLabel>Created By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45923" origId="5913512" fieldName="isvHome" >
+<DisplayLabel>ISV Home Page</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45924" origId="9089" fieldName="newsletter" >
+<DisplayLabel>Email Updates</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45925" origId="8504" fieldName="isApiOnly" >
+<DisplayLabel>API Only Access</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45926" origId="5947932" fieldName="isvLoginUrl" >
+<DisplayLabel>ISV Login URL</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45927" origId="7606172" fieldName="isvSupportUrl" >
+<DisplayLabel>ISV Support URL</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45928" origId="2109952" fieldName="PUSER" >
+<DisplayLabel>Reports To</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45929" origId="2538" fieldName="USER_comm" >
+<DisplayLabel>Communication Log</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45930" origId="2370049" fieldName="functionId" >
+<DisplayLabel>Function</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45931" origId="2352068" fieldName="isApprover1" >
+<DisplayLabel>Approver</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45932" origId="72980" fieldName="Revent1" >
+<DisplayLabel>Events</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45933" origId="9075" fieldName="pwdStatus" >
+<DisplayLabel>Password Status</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45934" origId="3283317" fieldName="googUname" >
+<DisplayLabel>Google User Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45935" origId="2109953" fieldName="CUSER" >
+<DisplayLabel>Direct Reports</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45936" origId="73342" fieldName="Rtask" >
+<DisplayLabel>Tasks</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45937" origId="19339" fieldName="tempPassword" >
+<DisplayLabel>Temporary Password</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45938" origId="9097" fieldName="phone" >
+<DisplayLabel>Phone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45939" origId="9059" fieldName="id" >
+<DisplayLabel>ID</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45940" origId="3283319" fieldName="googEmail" >
+<DisplayLabel>Use Gmail</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45941" origId="9067" fieldName="updatedBy" >
+<DisplayLabel>Updated By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45942" origId="9069" fieldName="updatedAt" >
+<DisplayLabel>Updated At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45943" origId="9081" fieldName="lastLogin" >
+<DisplayLabel>Last Login Time</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45944" origId="2370047" fieldName="locationId" >
+<DisplayLabel>Location</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45945" origId="12570505" fieldName="pwdUpdated_2" >
+<DisplayLabel>Password Expire At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45946" origId="9071" fieldName="loginName" >
+<DisplayLabel>Login Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45947" origId="31832" fieldName="customer" >
+<DisplayLabel>Customer</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45948" origId="3723817" fieldName="googCalendar" >
+<DisplayLabel>Synch Calendar</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45949" origId="9077" fieldName="language" >
+<DisplayLabel>Language</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45950" origId="9073" fieldName="role" >
+<DisplayLabel>User Role</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45951" origId="2370067" fieldName="job_title" >
+<DisplayLabel>Job Title</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45952" origId="9093" fieldName="middleName" >
+<DisplayLabel>Middle Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45953" origId="9099" fieldName="mobilePhone" >
+<DisplayLabel>Mobile Phone</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45954" origId="9083" fieldName="emailEncoding" >
+<DisplayLabel>Email Encoding</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45955" origId="9091" fieldName="firstName" >
+<DisplayLabel>First Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45956" origId="2370048" fieldName="departmentId" >
+<DisplayLabel>Department</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45957" origId="5913506" fieldName="isvSysName" >
+<DisplayLabel>ISV System Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45958" origId="3245476" fieldName="doNotAnimate" >
+<DisplayLabel>Do Not Animate Collapse</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45959" origId="5925731" fieldName="isvCopyright" >
+<DisplayLabel>ISV Copyright</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45960" origId="12626040" fieldName="isvTitleTemplate" >
+<DisplayLabel>ISV Title Template</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45961" origId="12570504" fieldName="pwdUpdated" >
+<DisplayLabel>Password Updated</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45962" origId="9065" fieldName="createdAt" >
+<DisplayLabel>Created At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45963" origId="9061" fieldName="name" >
+<DisplayLabel>User Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45964" origId="12149649" fieldName="displayLDF" >
+<DisplayLabel>LDF Filter</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45965" origId="9103" fieldName="email" >
+<DisplayLabel>Email Address</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45966" origId="30106" fieldName="mailFooter" >
+<DisplayLabel>Email Footer</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45967" origId="9095" fieldName="lastName" >
+<DisplayLabel>Last Name</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45968" origId="2647673" fieldName="isActive" >
+<DisplayLabel>Is Active</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45969" origId="2354871" fieldName="R2354869" >
+<DisplayLabel>Groups</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45970" origId="2352035" fieldName="isApprover" >
+<DisplayLabel>Is Approver</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45971" origId="9101" fieldName="fax" >
+<DisplayLabel>Fax</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45972" origId="9087" fieldName="rowsPerPage" >
+<DisplayLabel>Rows Per Page</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45973" origId="6652" fieldName="userProfilePic" >
+<DisplayLabel>User Profile Pic</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45974" origId="qT7RYwy-SjGNAjd9FVAmEQ" fieldName="sendWelcomeEmail" >
+<DisplayLabel>Send Welcome Email</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45975" origId="jRc8iWMqR9SPQKb9D7OATQ" fieldName="createdByDefId" >
+<DisplayLabel>Created By Definition</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="45976" origId="SeCIvPE8QQOdjYOdt4lEug" fieldName="updatedByDefId" >
+<DisplayLabel>Updated By Definition</DisplayLabel>
+</DataFieldDef>
+</DataFieldDefs>
+<ListViews>
+<ListView id="46022" origId="9242" orderNo="0">
+<ViewName>All Users</ViewName>
+</ListView>
+<ListView id="46023" origId="5683345" orderNo="2">
+<ViewName>ISV Partners</ViewName>
+</ListView>
+</ListViews>
+<RelationshipDefs>
+<RelationshipDef id="45989" origId="188885" relName="RB188885" objDef1="todo" objDef2="USER" singularName1="To-Do" pluralName1="To-Dos" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+</RelationshipDef><RelationshipDef id="45990" origId="2109951" relName="ORG_CHART" objDef1="USER" objDef2="USER" singularName1="Reports To" pluralName1="Reports To" singularName2="Direct Report" pluralName2="Direct Reports" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+</RelationshipDef><RelationshipDef id="45978" origId="190884" relName="USER_comm" objDef1="USER" objDef2="COMMLOG" singularName1="User" pluralName1="Users" singularName2="Communication Log" pluralName2="Communication Logs" isMultiple1="false" isMultiple2="true" orphanControl1="false" orphanControl2="true" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+</RelationshipDef><RelationshipDef id="45979" origId="2354869" relName="USER_GROUP" objDef1="$GROUP" objDef2="USER" singularName1="Group" pluralName1="Groups" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+</RelationshipDef><RelationshipDef id="45982" origId="188884" relName="RB188884" objDef1="meeting" objDef2="USER" singularName1="Meeting" pluralName1="Meetings" singularName2="User" pluralName2="Users" isMultiple1="true" isMultiple2="true" orphanControl1="false" orphanControl2="false" cloneRelated1="false" cloneRelated2="false" isSystem="false" isPkFk="false">
+</RelationshipDef></RelationshipDefs>
+<Reports>
+<Report id="46024" origId="220684" objDefId="45916" reportType="T" isPrivate="false" isInternal="false" >
+<Name>All Users</Name>
+<Description>Show me a list of all Users</Description>
+<Props>
+<defSortAsc>true</defSortAsc>
+<childId>-1</childId>
+<parentId>-1</parentId>
+<relId>-1</relId>
+<defSortCol>45943</defSortCol>
+<totalBy>-1</totalBy>
+<tablet>true</tablet>
+<smartPhone>false</smartPhone>
+<chartId>-1</chartId>
+<desktop>true</desktop>
+</Props>
+<Columns>
+45955,45967,45963,45965,45950,45938,45943,</Columns>
+<Sections>
+</Sections>
+</Report>
+</Reports>
+<Events>
+<Event id="46030" origId="12570506" orderNo="10" objDef="45916" configId="SendEmail" name="Send Password Expiration Notification" onWhat="2" relativeToId="45961" delay="1728000000" templateId="46026" changeFieldId="45961" isDeployed="false" objTypeId="0" >
+<ConditionB64>dmFyIG4gPSB7ISNDVVJSX0NVU1RNLmV4cGlyUG9saWN5fTsgdmFyIHggPSAneyFwd2RVcGRhdGVkfSc7IGlmIChuPD0wIHx8IHgubGVuZ3RoPT0wKSByZXR1cm4gZmFsc2U7IHZhciB0MSA9IChuZXcgRGF0ZSh4KSkuZ2V0VGltZSgpOyB2YXIgdDIgPSAobmV3IERhdGUoKSkuZ2V0VGltZSgpOyByZXR1cm4gdDErbioyNCo2MCo2MCoxMDAwIDwgdDI7</ConditionB64>
+<Props>
+<runDepTriggers>false</runDepTriggers>
+<objDefId2>-1</objDefId2>
+<recursType>0</recursType>
+<status>-1</status>
+<relId>-1</relId>
+<recursIntv>0</recursIntv>
+<fieldId>-1</fieldId>
+<reportId>-1</reportId>
+<selectorId>-1</selectorId>
+<to>{!email}</to>
+<from>fromUser</from>
+<id2>-1</id2>
+<mailTemplId>-1</mailTemplId>
+</Props>
+</Event>
+</Events>
+</DataObjectDef>
+</DependentDefs>
+<DataObjectDefs>
+<DataObjectDef id="63014" origId="eqITshisRRqMtg_YdT7kKQ" objDefName="viewfilterObj" isSystem="false" isAuditable="false" isViewable="false" isFlaggable="false" isDependent="false" isDeployed="true" isExtensible="false" >
+<Props>
+<isDedicatedDef>false</isDedicatedDef>
+<auditCreate>false</auditCreate>
+<defProcess>-1</defProcess>
+<auditView>false</auditView>
+<enableReports>true</enableReports>
+<auditDelete>false</auditDelete>
+<googSynch>false</googSynch>
+<auditEdit>false</auditEdit>
+</Props>
+<SingularName>viewFilterObj</SingularName>
+<PluralName>viewfilterObj</PluralName>
+<ObjTypeDefs>
+</ObjTypeDefs>
+<DataFieldDefs>
+<DataFieldDef id="63015" origId="xqlalp3dTv6BwR8e2G7S1A" objDef="63014" columnName="OBJ_NAME" fieldName="name" groupName="OBJNAME" dataClassName="com.rb.core.data.definition.FieldString" uiClassName="com.rb.core.ui.web.field.ObjectLink" isRequired="false" isReadOnly="false" isTextIndexable="true" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>viewfilterObj</DisplayLabel>
+<Props>
+<isLocalized>true</isLocalized>
+</Props>
+</DataFieldDef>
+<DataFieldDef id="63016" origId="5w2_0F1SQSCb_wnnAZnL4Q" objDef="63014" fieldName="comment" groupName="COMMENT" dataClassName="com.rb.core.data.definition.FieldComment" uiClassName="com.rb.core.ui.web.field.CommentsArea" isRequired="false" isReadOnly="false" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Comments</DisplayLabel>
+<Props>
+<rows>10</rows>
+<cols>60</cols>
+</Props>
+</DataFieldDef>
+<DataFieldDef id="63017" origId="7zXj1zHgRpKykrKxEHZhvQ" objDef="63014" columnName="CREATED_BY" fieldName="createdBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Created By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63018" origId="Lq5woA3qRyGz9w6E4WuUlA" objDef="63014" columnName="CREATED_BY_DEF_ID" fieldName="createdByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>createdByDefId_field</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63019" origId="ob5FTo6TSzWFpQjbF5AKWQ" objDef="63014" columnName="CREATED_AT" fieldName="createdAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Created At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63020" origId="SbfyC6O-SRStn2ScGpWpVg" objDef="63014" columnName="UPDATED_BY" fieldName="updatedBy" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.UserLink" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Updated By</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63021" origId="L1ErdRsGTcC1Wil7cc0y5Q" objDef="63014" columnName="UPDATED_BY_DEF_ID" fieldName="updatedByDefId" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.DummyInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>updatedByDefId_field</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63022" origId="6rd3rgdwR6Osjjgg_HaEFg" objDef="63014" columnName="UPDATED_AT" fieldName="updatedAt" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldDateTime" uiClassName="com.rb.core.ui.web.field.DateTimeInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>Updated At</DisplayLabel>
+</DataFieldDef>
+<DataFieldDef id="63023" origId="QpS97weyRHiz9BV9iQHWSQ" objDef="63014" columnName="OBJ_ID" fieldName="id" groupName="STANDARD" dataClassName="com.rb.core.data.definition.FieldLong" uiClassName="com.rb.core.ui.web.field.IntInput" isRequired="false" isReadOnly="true" isTextIndexable="false" isSystem="true" isAuditable="false" hasPermissions="false" maxLength="-1" objTypeId="0" >
+<DisplayLabel>ID</DisplayLabel>
+</DataFieldDef>
+</DataFieldDefs>
+<FieldDependencies>
+</FieldDependencies>
+<ListViews>
+<ListView id="63070" origId="WaTdnbcUR6GVTJQU3XMv9A" orderNo="0" objDefId="63014" isSystem="true" objTypeId="0" >
+<ViewName>All viewfilterObj</ViewName>
+<Props>
+<compWhat1>-1</compWhat1>
+<compWhat0>-1</compWhat0>
+<isPrivate>false</isPrivate>
+<dateField>-1</dateField>
+<defSortAsc>false</defSortAsc>
+<smartPhone>true</smartPhone>
+<groupByAsc>true</groupByAsc>
+<tablet>true</tablet>
+<defSortAsc3>true</defSortAsc3>
+<showActions>true</showActions>
+<defSortAsc2>true</defSortAsc2>
+<hidePageTotal>false</hidePageTotal>
+<hideCounter>false</hideCounter>
+<defSortCol3>-1</defSortCol3>
+<defSortCol2>-1</defSortCol2>
+<groupBy>-1</groupBy>
+<totalBy2>-1</totalBy2>
+<totalBy1>-1</totalBy1>
+<hideSubTotal>false</hideSubTotal>
+<hideGrandTotal>false</hideGrandTotal>
+<totalBy>-1</totalBy>
+<disableSort>false</disableSort>
+<hideSelector>false</hideSelector>
+<defSortCol>63022</defSortCol>
+<desktop>true</desktop>
+<joinType>1</joinType>
+<compWhat2>-1</compWhat2>
+<isUsedInSearch>false</isUsedInSearch>
+</Props>
+<Columns>
+63015,63022,63020,63023,</Columns>
+</ListView>
+<ListView id="63106" origId="uc904JRrQRGfq5bnBV1wug" orderNo="1" objDefId="63014" isSystem="false" objTypeId="0" >
+<ViewName>view11</ViewName>
+<Props>
+<compWhat1>-1</compWhat1>
+<compWhat0>-1</compWhat0>
+<opCode1>GT</opCode1>
+<isPrivate>false</isPrivate>
+<opCode0>ST</opCode0>
+<opValue1>0</opValue1>
+<opValue0>11</opValue0>
+<dateField>-1</dateField>
+<defSortAsc>true</defSortAsc>
+<smartPhone>false</smartPhone>
+<groupByAsc>true</groupByAsc>
+<tablet>true</tablet>
+<defSortAsc3>true</defSortAsc3>
+<showActions>true</showActions>
+<fieldId1>63023</fieldId1>
+<defSortAsc2>true</defSortAsc2>
+<fieldId0>63015</fieldId0>
+<hidePageTotal>false</hidePageTotal>
+<hideCounter>false</hideCounter>
+<defSortCol3>-1</defSortCol3>
+<defSortCol2>-1</defSortCol2>
+<groupBy>-1</groupBy>
+<totalBy2>-1</totalBy2>
+<totalBy1>-1</totalBy1>
+<hideSubTotal>false</hideSubTotal>
+<hideGrandTotal>false</hideGrandTotal>
+<isInternal>false</isInternal>
+<totalBy>-1</totalBy>
+<disableSort>false</disableSort>
+<hideSelector>false</hideSelector>
+<defSortCol>-1</defSortCol>
+<desktop>true</desktop>
+<joinType>1</joinType>
+<compWhat2>-1</compWhat2>
+<isUsedInSearch>false</isUsedInSearch>
+</Props>
+<Columns>
+63015,63023,</Columns>
+</ListView>
+<ListView id="63107" origId="Hp2hVw-9QsiysaqHLXLQzQ" orderNo="2" objDefId="63014" isSystem="false" objTypeId="0" >
+<ViewName>view33</ViewName>
+<Props>
+<compWhat1>-1</compWhat1>
+<compWhat0>-1</compWhat0>
+<isPrivate>false</isPrivate>
+<opCode0>ST</opCode0>
+<opValue0>33</opValue0>
+<dateField>-1</dateField>
+<defSortAsc>true</defSortAsc>
+<smartPhone>false</smartPhone>
+<groupByAsc>true</groupByAsc>
+<tablet>true</tablet>
+<defSortAsc3>true</defSortAsc3>
+<showActions>true</showActions>
+<defSortAsc2>true</defSortAsc2>
+<fieldId0>63015</fieldId0>
+<hidePageTotal>false</hidePageTotal>
+<hideCounter>false</hideCounter>
+<defSortCol3>-1</defSortCol3>
+<defSortCol2>-1</defSortCol2>
+<groupBy>-1</groupBy>
+<totalBy2>-1</totalBy2>
+<totalBy1>-1</totalBy1>
+<hideSubTotal>false</hideSubTotal>
+<sysCode>view33</sysCode>
+<hideGrandTotal>false</hideGrandTotal>
+<isInternal>false</isInternal>
+<totalBy>-1</totalBy>
+<disableSort>false</disableSort>
+<hideSelector>false</hideSelector>
+<defSortCol>-1</defSortCol>
+<desktop>true</desktop>
+<joinType>2</joinType>
+<compWhat2>-1</compWhat2>
+<isUsedInSearch>false</isUsedInSearch>
+</Props>
+<Columns>
+63015,63023,63019,63022,</Columns>
+</ListView>
+<ListView id="63108" origId="mGYLkSsLShWN3pgGeSNRag" orderNo="3" objDefId="63014" isSystem="false" objTypeId="0" >
+<ViewName>viewAll</ViewName>
+<Props>
+<compWhat1>-1</compWhat1>
+<compWhat0>-1</compWhat0>
+<isPrivate>false</isPrivate>
+<dateField>-1</dateField>
+<defSortAsc>true</defSortAsc>
+<smartPhone>false</smartPhone>
+<groupByAsc>true</groupByAsc>
+<tablet>true</tablet>
+<defSortAsc3>true</defSortAsc3>
+<showActions>true</showActions>
+<defSortAsc2>true</defSortAsc2>
+<hidePageTotal>false</hidePageTotal>
+<hideCounter>false</hideCounter>
+<defSortCol3>-1</defSortCol3>
+<defSortCol2>-1</defSortCol2>
+<groupBy>-1</groupBy>
+<totalBy2>-1</totalBy2>
+<totalBy1>-1</totalBy1>
+<hideSubTotal>false</hideSubTotal>
+<sysCode>viewAll</sysCode>
+<hideGrandTotal>false</hideGrandTotal>
+<isInternal>false</isInternal>
+<totalBy>-1</totalBy>
+<disableSort>false</disableSort>
+<hideSelector>false</hideSelector>
+<defSortCol>-1</defSortCol>
+<desktop>true</desktop>
+<joinType>1</joinType>
+<compWhat2>-1</compWhat2>
+<isUsedInSearch>false</isUsedInSearch>
+</Props>
+<Columns>
+63015,63023,</Columns>
+</ListView>
+</ListViews>
+<MobileCards>
+</MobileCards>
+</DataObjectDef>
+</DataObjectDefs>
+<Menus>
+<Menu id="63098" origId="4mWyb_dhRLOjCee2rQLkUA" objDefId="63014" orderNo="1" parentId="-1" pageDefId="63024" >
+<DisplayName>viewfilterObj</DisplayName>
+<Props>
+<smartPhone>true</smartPhone>
+<tablet>true</tablet>
+<tabLogoType>0</tabLogoType>
+<desktop>true</desktop>
+</Props>
+<Menus><Menu id="63099" origId="Pz5rXevAQ2y4lXVmjLZ-9A" objDefId="63014" orderNo="1" parentId="63098" pageDefId="63026" >
+<DisplayName>New viewFilterObj</DisplayName>
+</Menu>
+<Menu id="63100" origId="LMgpSzLnRoei_Jbf49pzew" objDefId="63014" orderNo="2" parentId="63098" pageDefId="63036" >
+<DisplayName>Search</DisplayName>
+</Menu>
+<Menu id="63101" origId="SbjLxG53RTq-isv18BqD_A" objDefId="63014" orderNo="3" parentId="63098" pageDefId="63039" >
+<DisplayName>Import</DisplayName>
+</Menu>
+<Menu id="63102" origId="RyyLATPXRLmLZBBGNuH3PA" objDefId="63014" orderNo="4" parentId="63098" pageDefId="63040" >
+<DisplayName>Templates</DisplayName>
+</Menu>
+</Menus></Menu>
+</Menus>
+<WebPageDefs>
+<WebPageDef id="63040" origId="nklCHdJnQWubsNNdDaBv9w" isPortal="false" objDefId="63014" pageType="12" >
+<PageDefName>Templates</PageDefName>
+<JspName>../m/templates.jsp</JspName>
+<WebPages>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63041" origId="xooqMmT2QJyuNnEoqzlQ-g" isPortal="false" objDefId="63014" pageType="21" >
+<PageDefName>Questions</PageDefName>
+<JspName>../components/questions.jsp</JspName>
+<WebPages>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63042" origId="yvtGwnLQTP-bPFycJOWMgg" isPortal="false" objDefId="63014" pageType="6" >
+<PageDefName>Status Change</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63043" origId="KBMBlQ38QE6q1fOD8AdQSg" pageDefId="63042" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Status Change</PageName>
+<PageSections>
+<PageSection id="63079" origId="nvJN3G10RAybHpIn3Ui3kg" pageId="63043" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63080" origId="Od2GpOqyRlaSbRxoOPDccg" sectionId="63079" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.StatusFormBegin" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63081" origId="67WeYy_iQqSNSjB_thCaIw" pageId="63043" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Confirm Status Change</SectionTitle>
+<PageCells>
+<PageCell id="63082" origId="jWhv8v_sT-GYyCxcd74NYA" sectionId="63081" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>Q2hhbmdlIHRoZSBXb3JrZmxvdyBTdGF0dXMgb2YgPHN0cm9uZz57IW5hbWV9PC9zdHJvbmc+IHRvIDxzdHJvbmc+eyFuZXh0U3RhdHVzfTwvc3Ryb25nPiA/</TextB64>
+</PageCell>
+<PageCell id="63083" origId="8ggcc0pWTh-ysch_oNd4eg" sectionId="63081" orderNo="1" alignment="0" fieldId="63016" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63084" origId="W9DRta8xT8uQTEcmSD6y6A" pageId="63043" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63085" origId="O-KRzxKYSIiGdEi5BYydMQ" sectionId="63084" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>U3RhdHVzIENoYW5nZQ==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63044" origId="Y6aLEMcWSWG7le-S-EWvIw" isPortal="false" objDefId="63014" pageType="17" >
+<PageDefName>Mass Update</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63045" origId="rVBsIFFvQFauuI7wRwZzyQ" pageDefId="63044" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Mass Update</PageName>
+<PageSections>
+<PageSection id="63086" origId="QeciKQvcR9CxXZIyOQyxtw" pageId="63045" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63087" origId="h5JWvz_0TV6K9R-cL-RQ0g" sectionId="63086" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.MassUpdateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63088" origId="1lBOaK5yRBaJJ8eiJW3T0g" pageId="63045" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Mass Update</SectionTitle>
+<PageCells>
+<PageCell id="63089" origId="WDYy_1p6SuOgR5TTDkZeOA" sectionId="63088" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.TemplateHTML" >
+<TextB64>TWFzcyBVcGRhdGUgcGFnZXMgYWxsb3cgeW91IHRvIGNoYW5nZSBmaWVsZCB2YWx1ZXMgZm9yIG11bHRpcGxlIHJlY29yZHMgc2ltdWx0YW5lb3VzbHkuIDxzdHJvbmc+QW55IGZpZWxkcyBsZWZ0IGJsYW5rIHdpbGwgbm90IGJlIHVwZGF0ZWQuPC9zdHJvbmc+IFlvdSBvciB5b3VyIGFkbWluaXN0cmF0b3IgY2FuIGVkaXQgdGhpcyBwYWdlIHRvIGFkZCBvciByZW1vdmUgZmllbGRzIHlvdSB3YW50IHRvIGJlIGFibGUgdG8gdXBkYXRlIGZyb20gdGhpcyBwYWdlLg==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63090" origId="gYdI_U_LSd6UoklaDR14jA" pageId="63045" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63091" origId="ukJnrY8oRKaBttr5Kw6QWQ" sectionId="63090" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63024" origId="YLnyg_feTZGhQOT7y1mc3w" isPortal="false" objDefId="63014" pageType="22" >
+<PageDefName>viewfilterObj List</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63025" origId="JnVCFyduT_Gc_ky77ATKDA" pageDefId="63024" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>viewfilterObj List</PageName>
+<PageSections>
+<PageSection id="63071" origId="b8CxW6GmRRiV3SUA33iWMg" pageId="63025" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>All viewfilterObj</SectionTitle>
+<PageCells>
+<PageCell id="63072" origId="LSmfcafyQZG8rzq0t6rJTg" sectionId="63071" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.PageableList" >
+<Props>
+<objDefId2>63014</objDefId2>
+<selListId>-1</selListId>
+<gridHeight>-1</gridHeight>
+<hideFilterConditions>false</hideFilterConditions>
+<hideFilter>false</hideFilter>
+</Props>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+<Props>
+<enableTabs>false</enableTabs>
+<columns>1</columns>
+<numTabs>0</numTabs>
+<renderMode>responsive</renderMode>
+</Props>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63026" origId="_QknQktDR7q06Gyc3TKK1g" isPortal="false" objDefId="63014" pageType="3" >
+<PageDefName>New viewFilterObj</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63027" origId="ZYPMRnRVRXycJE-qKXaVFQ" pageDefId="63026" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>New viewFilterObj</PageName>
+<PageSections>
+<PageSection id="63046" origId="fxyrE3-ZSzCTndJ5n5DAmg" pageId="63027" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63047" origId="RUrJZ2r5T1ezieVoIqcRtw" sectionId="63046" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63048" origId="BmE82teYSSyBijAk0p1fOg" pageId="63027" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>viewFilterObj Information</SectionTitle>
+<PageCells>
+<PageCell id="63049" origId="E0O4DRWpRb-ujP_MtgcdUA" sectionId="63048" orderNo="0" alignment="0" fieldId="63015" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63050" origId="KZ9QtnMuToiGkpAl2hlQ9A" pageId="63027" orderNo="2" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63051" origId="M0ogMEq9R_uiPjofRRUs4w" sectionId="63050" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63028" origId="vqQRc52YToiqqx3ifaxHXg" isPortal="false" objDefId="63014" pageType="18" >
+<PageDefName>Quick Create</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63029" origId="WbpDH45ESvKd0IDAshkPyQ" pageDefId="63028" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Quick Create</PageName>
+<PageSections>
+<PageSection id="63092" origId="idaCUU_oQTGvsyxK1j1lHw" pageId="63029" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63093" origId="BptWwCdyQpWbBXXGhJN0DQ" sectionId="63092" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.QuickCreateFormBegin" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63094" origId="YcKouwigS2-zcHzy2-PojQ" pageId="63029" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Quick Create</SectionTitle>
+<PageCells>
+<PageCell id="63095" origId="bMO-iQIOQdi_BgwZyElX4g" sectionId="63094" orderNo="0" alignment="0" fieldId="63015" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63096" origId="yy78S2fMSv-ccTyPWBnrng" pageId="63029" orderNo="2" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63097" origId="pREp_fo0Q2O2oTAfgLJNLQ" sectionId="63096" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63030" origId="ZGBY3pvUQlGj2_S119gFig" isPortal="false" objDefId="63014" pageType="1" >
+<PageDefName>View viewFilterObj</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63031" origId="_oTVun9hQUOMdMf1GLGeEA" pageDefId="63030" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>View viewFilterObj</PageName>
+<PageSections>
+<PageSection id="63052" origId="ovuyxvTvRpuXh1vdNL8gJA" pageId="63031" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63053" origId="2vanbDkjQt2lK-l33KKYJQ" sectionId="63052" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63054" origId="vh-lbYh7TEq7uIF0csvJvQ" pageId="63031" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="true" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>viewFilterObj Information</SectionTitle>
+<PageCells>
+<PageCell id="63055" origId="qbxxHBdPQs6BCnjjBkLgmA" sectionId="63054" orderNo="0" alignment="0" fieldId="63015" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63056" origId="NlIcm5duR2e_Sd1wEXrKFg" pageId="63031" orderNo="2" borderStyle="1" columns="2" viewTabNo="1" pageColNo="0" isCollapsable="true" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>System Information</SectionTitle>
+<PageCells>
+<PageCell id="63057" origId="l3bGwI6iQmSlmO0oMupMog" sectionId="63056" orderNo="0" alignment="0" fieldId="63017" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="63058" origId="T73AaIQWRJKu4v1Y-eK0AQ" sectionId="63056" orderNo="1" alignment="1" fieldId="63019" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="63059" origId="Y0ZsE5F2SJWI8tbGKTNQBw" sectionId="63056" orderNo="2" alignment="0" fieldId="63020" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="63060" origId="5EOCSlkwTuSAcRwmWOD0oQ" sectionId="63056" orderNo="3" alignment="1" fieldId="63022" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+<PageCell id="63061" origId="WbDfRAZtRLykgPD4GVgm6A" sectionId="63056" orderNo="4" alignment="0" fieldId="63023" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63062" origId="jIVbntNXS_q5u96FzJ4YVA" pageId="63031" orderNo="3" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63063" origId="3aSCMXP4SeK7WoLby4TaXA" sectionId="63062" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectViewEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+<Props>
+<enableTabs>true</enableTabs>
+<tabName1>System Info</tabName1>
+<numTabs>2</numTabs>
+<tabName0>viewFilterObj Info</tabName0>
+</Props>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63032" origId="7kfQfs6kTkW428l_lSvUmA" isPortal="false" objDefId="63014" pageType="2" >
+<PageDefName>Edit viewFilterObj</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63033" origId="lfX-aFEyTKav4RBwtwu-Pw" pageDefId="63032" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Edit viewFilterObj</PageName>
+<PageSections>
+<PageSection id="63064" origId="9f-LHNTBSka_YruQ6ogN-A" pageId="63033" orderNo="0" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page Begin</SectionTitle>
+<PageCells>
+<PageCell id="63065" origId="gtbJ1O-oQeeoAokMjShVsA" sectionId="63064" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormBegin" >
+<TextB64>UGFnZSBCZWdpbg==</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63066" origId="kSPJuWkHSKqnPpmP_9QWiw" pageId="63033" orderNo="1" borderStyle="1" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="true" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>viewFilterObj Information</SectionTitle>
+<PageCells>
+<PageCell id="63067" origId="wCKitPUYRNWqcPuhUoDFOg" sectionId="63066" orderNo="0" alignment="0" fieldId="63015" cellClassName="com.rb.core.ui.web.cell.FieldWrapper" >
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63068" origId="VGfVH53lSpGAUGeCnzSWcw" pageId="63033" orderNo="2" borderStyle="0" columns="1" viewTabNo="-1" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="true" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Page End</SectionTitle>
+<PageCells>
+<PageCell id="63069" origId="lbJuia1gQoeiBQATR8PIhQ" sectionId="63068" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.ObjectFormEnd" >
+<TextB64>UGFnZSBFbmQ=</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63034" origId="oovF7LA5TOStINZfD3DVTw" isPortal="false" objDefId="63014" pageType="7" >
+<PageDefName>viewfilterObj Selector List</PageDefName>
+<JspName>../m/selector.jsp</JspName>
+<WebPages>
+<WebPage id="63035" origId="LIB67vwRQACsMsmZOB2GTA" pageDefId="63034" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>viewfilterObj Selector List</PageName>
+<PageSections>
+<PageSection id="63075" origId="3Tc8B_LGS8i-UN3OmBsRfQ" pageId="63035" orderNo="0" borderStyle="0" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>Search Form</SectionTitle>
+<PageCells>
+<PageCell id="63076" origId="TZAeY8VuTomI6bsoxxEBww" sectionId="63075" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorSearch" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+</PageCell>
+</PageCells>
+</PageSection>
+<PageSection id="63077" origId="OeedmFHWSgGgUL5tIHl7Nw" pageId="63035" orderNo="1" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>viewfilterObj Selector</SectionTitle>
+<PageCells>
+<PageCell id="63078" origId="wf8e6WrxQBW5DcHnwu4Z6A" sectionId="63077" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SelectorList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>63014</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63036" origId="M2zqZ46SQbyc6jsNG16-CA" isPortal="false" objDefId="63014" pageType="4" >
+<PageDefName>Search</PageDefName>
+<JspName>../m/search.jsp</JspName>
+<WebPages>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63037" origId="q8l0m2glRhCDBmBDU-8iaA" isPortal="false" objDefId="63014" pageType="5" >
+<PageDefName>Search Results</PageDefName>
+<JspName>../m/main.jsp</JspName>
+<WebPages>
+<WebPage id="63038" origId="_swfy4zASi-KEtLsZUWhvw" pageDefId="63037" isBaseVersion="true" isLoginOnly="false" objTypeId="0" >
+<PageName>Search Results</PageName>
+<PageSections>
+<PageSection id="63073" origId="-hXzi93yRhiQJIRx8VawpQ" pageId="63038" orderNo="0" borderStyle="2" columns="1" viewTabNo="0" pageColNo="0" isCollapsable="false" isDefault="false" hideMobile="false" doNotSynch="false" showInDesktop="true" showInSmartPhone="true" showInTablet="true" >
+<SectionTitle>viewfilterObj Search Results</SectionTitle>
+<PageCells>
+<PageCell id="63074" origId="-RvNZe1dSNWnmP6qIvegzg" sectionId="63073" orderNo="0" alignment="0" fieldId="-1" cellClassName="com.rb.core.ui.web.cell.SearchResultsList" >
+<TextB64>UXVlc3Rpb25z</TextB64>
+<Props>
+<objDefId2>63014</objDefId2>
+<gridHeight>-1</gridHeight>
+</Props>
+</PageCell>
+</PageCells>
+</PageSection>
+</PageSections>
+</WebPage>
+</WebPages>
+</WebPageDef>
+<WebPageDef id="63039" origId="8No_KKckSYa2l-TnsnLZNA" isPortal="false" objDefId="63014" pageType="10" >
+<PageDefName>Import</PageDefName>
+<JspName>../m/import.jsp</JspName>
+<WebPages>
+</WebPages>
+</WebPageDef>
+</WebPageDefs>
+<Portals>
+</Portals>
+<CustomReports>
+</CustomReports>
+<Permissions><Permission resId="46" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="510" prId="93" actionsSet="1">
+</Permission>
+<Permission resId="46" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="510" prId="99" actionsSet="1">
+</Permission>
+<Permission resId="48" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="46" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="47" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="44" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="45" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="63099" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="63100" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="63101" prId="98" actionsSet="1">
+</Permission>
+<Permission resId="63102" prId="98" actionsSet="1">
+</Permission>
+</Permissions><RolePages>
+</RolePages>
+</Application>
